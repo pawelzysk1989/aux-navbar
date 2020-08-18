@@ -12,6 +12,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('./features/second/second.module').then((m) => m.SecondModule),
   },
+  {
+    path: 'third',
+    loadChildren: () =>
+      import('./features/third/third.module').then((m) => m.ThirdModule),
+  },
 ];
 
 @NgModule({

@@ -1,3 +1,5 @@
+import { AppComponent } from './../app.component';
+import { LeftNavDirective } from './../directives/left-nav.directive';
 import { SideNavService } from './../services/side-nav.service';
 import { Directive, TemplateRef, OnInit, OnDestroy } from '@angular/core';
 

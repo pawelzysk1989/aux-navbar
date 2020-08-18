@@ -1,0 +1,18 @@
+:host {
+  display: flex;
+  flex-wrap: wrap;
+  > header {
+    flex: 1 100%;
+    margin-left: 4rem;
+
+    *:not(:last-child) {
+      margin-right: 1rem;
+    }
+  }
+  > app-left-nav {
+    flex: 1;
+  }
+  > main {
+    flex: 4;
+  }
+}

@@ -4,10 +4,12 @@ import { CommonModule } from '@angular/common';
 import { FirstRoutingModule } from './first-routing.module';
 import { FirstComponent } from './first.component';
 import { SharedModule } from '../../shared/shared.module';
+import { FirstAComponent } from './first-a/first-a.component';
+import { FirstBComponent } from './first-b/first-b.component';
 
 
 @NgModule({
-  declarations: [FirstComponent],
+  declarations: [FirstComponent, FirstAComponent, FirstBComponent],
   imports: [
     CommonModule,
     FirstRoutingModule,
